@@ -1,0 +1,146 @@
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #1886C7;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+.navbar {
+    
+    border-bottom: #1886C7 1px solid;
+    
+}
+
+.navbar .navbar-brand {
+    
+    color: #1886C7;
+    font-size: 24px;
+    
+}
+
+.bg-dark {
+    
+    background-color: black!important;
+}
+
+.nav-link {
+    
+    color: white!important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+
+.nav-link:hover {
+    color: #1886C7!important;
+}
+
+#headerSection {
+    background: url("../images/headersection.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection .overlay {
+    background-color: rgba(0,0,0,.7);
+}
+
+#headerSection .row {
+    height: 100vh;
+}
+
+#headerSection span {
+    color: #1886C7!important;
+}
+
+.btn-outline-primary {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/* Footer için Css */
+
+.bg-light {
+    background-color: black!important;
+}
+
+.footer {
+    border-top: #1886C7 1px solid;
+}
+
+
+/* Anasayfa İçerik için Css */
+
+#icerikSection h2 {
+    
+    border-left: 6px solid #1886C7;
+    padding-left: 30px;
+}
+
+#icerikSection .col-md-6 {
+    display: inline;
+}
+
+#icerikSection p {
+    line-height: 28px;
+}
+
+/* Anasayfa İkon ve içerik2 için Css */
+
+#icerik2Section .far, .fas {
+    font-size: 40px;
+}
+
+.feature-top {
+    transition: color .5s ease;
+}
+
+.feature-top:hover {
+    color: #1886C7;
+    cursor: pointer;
+    
+}
+
+#icerik2Section .col-md-4 {
+    border-right: #1886C7 1px solid;
+}
+
+#icerik2Section .col1 {
+    border-left: #1886C7 1px solid;
+}
+
+#i<<sletisimSection h2 {
+    
+    border-left: 6px solid #1886C7;
+    padding-left: 30px;
+}
+
+#iletisimSection .far, .fas {
+    font-size: 15px;
+    color: #1886C7;
+}
+
+#iletisimSection h3 {
+    font-weight: bold;
+}
+
+#iletisimSection p {
+    font-size: 16px;
+}
+
+#urunlerSection h2 {
+    border-left: 6px solid #1886C7;
+    padding-left: 30px;
+}
